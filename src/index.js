@@ -6,7 +6,7 @@ dotenv.config({
     path:"./.env",
 });
 
-console.log("Environment variables loaded:", process.env.MONGO_URL ? "MONGO_URL loaded" : "MONGO_URl not loaded");
+console.log("Environment variables loaded:", process.env.MONGODB_URI ? "MONGODB_URI loaded" : "MONGODB_URI not loaded");
 console.log("PORT:", process.env.PORT);
 
 
